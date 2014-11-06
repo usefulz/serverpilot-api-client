@@ -245,16 +245,6 @@ class ServerPilot
   }
 
   /**
-   * List Apps
-   * @return mixed
-   */
-
-  public function list_apps()
-  {
-    return self::get('apps');
-  }
-
-  /**
    * Create App
    * @param string $name Name of application
    * @param string $user_id Application owner
