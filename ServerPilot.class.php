@@ -470,7 +470,7 @@ class ServerPilot
       CURLOPT_RETURNTRANSFER => 1,
       CURLOPT_FORBID_REUSE => 1,
       CURLOPT_TIMEOUT => 30,
-      CURLOPT_HTTPHEADER => array('Accept: application/json', 'Content-type: application/json'),
+      CURLOPT_HTTPHEADER => array('Accept: application/json'),
     );
 
     switch($this->request_type)
